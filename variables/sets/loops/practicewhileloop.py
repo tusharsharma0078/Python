@@ -18,9 +18,4 @@ while i<=10:
    print(n*i)
    i+=1
 
-   # print the elements of the list using while loop
-   list=[1,4,9,16,25,36,49,64,81,100]
-   idx=0
-while idx<len(list):
-         print(list[idx])
-         idx+=1
+ 
