@@ -15,3 +15,12 @@ def factorial(n):
         return n*factorial(n-1)
 print(factorial(5))
 print(factorial(2))
+
+#print the sum of natural numbers
+def calc_sum(n):
+    if(n==0):
+        return 0
+    return calc_sum(n-1)+n
+sum=calc_sum(5)
+print(sum)
+
